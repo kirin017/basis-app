@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.scss';
 
+const name = 'Huy'
+const element = <h1>Hello , {name}</h1>
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello World
+          element
         </p>
         <a
           className="App-link"
@@ -15,7 +17,6 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Ảnh quốc
         </a>
       </header>
     </div>
